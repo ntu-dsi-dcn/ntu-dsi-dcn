@@ -1572,17 +1572,17 @@ def register_Ns3TopologyReader_methods(root_module, cls):
                    'ns3::NodeContainer', 
                    [], 
                    is_pure_virtual=True, is_virtual=True)
-    ## topology-reader.h (module 'topology-read'): void ns3::TopologyReader::SetFileName(std::string const fileName) [member function]
+    ## topology-reader.h (module 'topology-read'): void ns3::TopologyReader::SetFileName(std::string const & fileName) [member function]
     cls.add_method('SetFileName', 
                    'void', 
-                   [param('std::string const', 'fileName')])
+                   [param('std::string const &', 'fileName')])
     return
 
 def register_Ns3TopologyReaderLink_methods(root_module, cls):
     ## topology-reader.h (module 'topology-read'): ns3::TopologyReader::Link::Link(ns3::TopologyReader::Link const & arg0) [copy constructor]
     cls.add_constructor([param('ns3::TopologyReader::Link const &', 'arg0')])
-    ## topology-reader.h (module 'topology-read'): ns3::TopologyReader::Link::Link(ns3::Ptr<ns3::Node> fromPtr, std::string fromName, ns3::Ptr<ns3::Node> toPtr, std::string toName) [constructor]
-    cls.add_constructor([param('ns3::Ptr< ns3::Node >', 'fromPtr'), param('std::string', 'fromName'), param('ns3::Ptr< ns3::Node >', 'toPtr'), param('std::string', 'toName')])
+    ## topology-reader.h (module 'topology-read'): ns3::TopologyReader::Link::Link(ns3::Ptr<ns3::Node> fromPtr, std::string const & fromName, ns3::Ptr<ns3::Node> toPtr, std::string const & toName) [constructor]
+    cls.add_constructor([param('ns3::Ptr< ns3::Node >', 'fromPtr'), param('std::string const &', 'fromName'), param('ns3::Ptr< ns3::Node >', 'toPtr'), param('std::string const &', 'toName')])
     ## topology-reader.h (module 'topology-read'): std::_Rb_tree_const_iterator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > ns3::TopologyReader::Link::AttributesBegin() [member function]
     cls.add_method('AttributesBegin', 
                    'std::_Rb_tree_const_iterator< std::pair< std::basic_string< char, std::char_traits< char >, std::allocator< char > > const, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > >', 
@@ -1591,15 +1591,15 @@ def register_Ns3TopologyReaderLink_methods(root_module, cls):
     cls.add_method('AttributesEnd', 
                    'std::_Rb_tree_const_iterator< std::pair< std::basic_string< char, std::char_traits< char >, std::allocator< char > > const, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > >', 
                    [])
-    ## topology-reader.h (module 'topology-read'): std::string ns3::TopologyReader::Link::GetAttribute(std::string name) const [member function]
+    ## topology-reader.h (module 'topology-read'): std::string ns3::TopologyReader::Link::GetAttribute(std::string const & name) const [member function]
     cls.add_method('GetAttribute', 
                    'std::string', 
-                   [param('std::string', 'name')], 
+                   [param('std::string const &', 'name')], 
                    is_const=True)
-    ## topology-reader.h (module 'topology-read'): bool ns3::TopologyReader::Link::GetAttributeFailSafe(std::string name, std::string & value) const [member function]
+    ## topology-reader.h (module 'topology-read'): bool ns3::TopologyReader::Link::GetAttributeFailSafe(std::string const & name, std::string & value) const [member function]
     cls.add_method('GetAttributeFailSafe', 
                    'bool', 
-                   [param('std::string', 'name'), param('std::string &', 'value')], 
+                   [param('std::string const &', 'name'), param('std::string &', 'value')], 
                    is_const=True)
     ## topology-reader.h (module 'topology-read'): ns3::Ptr<ns3::Node> ns3::TopologyReader::Link::GetFromNode() const [member function]
     cls.add_method('GetFromNode', 
@@ -1621,10 +1621,10 @@ def register_Ns3TopologyReaderLink_methods(root_module, cls):
                    'std::string', 
                    [], 
                    is_const=True)
-    ## topology-reader.h (module 'topology-read'): void ns3::TopologyReader::Link::SetAttribute(std::string name, std::string & value) [member function]
+    ## topology-reader.h (module 'topology-read'): void ns3::TopologyReader::Link::SetAttribute(std::string const & name, std::string const & value) [member function]
     cls.add_method('SetAttribute', 
                    'void', 
-                   [param('std::string', 'name'), param('std::string &', 'value')])
+                   [param('std::string const &', 'name'), param('std::string const &', 'value')])
     return
 
 def register_Ns3TraceSourceAccessor_methods(root_module, cls):
