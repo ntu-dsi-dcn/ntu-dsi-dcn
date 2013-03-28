@@ -71,7 +71,7 @@
 		- Routing protocol: Nix-Vector
 
         - Statistics Output:
-                - Flowmonitor XML output file: Fat-tree-Bilal.xml is located in the /ns-3.13 folder
+                - Flowmonitor XML output file: Fat-tree-Bilal.xml is located in the /statistics folder
             
 
 
@@ -128,7 +128,7 @@ int
 	int num_group = k/2;		// number of group of core switches
         int num_core = (k/2);		// number of core switch in a group
 	int total_host = k*k*k/4;	// number of hosts in the entire network	
-	char filename [] = "Fat-tree-Bilal.xml";// filename for Flow Monitor xml output file
+	char filename [] = "statistics/Fat-tree-Bilal.xml";// filename for Flow Monitor xml output file
 
 // Define variables for On/Off Application
 // These values will be used to serve the purpose that addresses of server and client are selected randomly

@@ -68,7 +68,7 @@
 		- Routing protocol: Nix-Vector
         
         - Statistics Output:
-                - Flowmonitor XML output file: BCube.xml is located in the /ns-3.13 folder
+                - Flowmonitor XML output file: BCube.xml is located in the /statistics folder
             
 */
 
@@ -124,7 +124,7 @@ int
 	int n = 4;			// number of servers in one BCube;
 	int num_sw = pow (n,k);		// number of switch at each level (all levels have same number of switch) = n^k;
 	int num_host = num_sw*n;	// total number of host
-	char filename [] = "BCube.xml";	// filename for Flow Monitor xml output file
+	char filename [] = "statistics/BCube.xml";	// filename for Flow Monitor xml output file
 
 // Initialize other variables
 //
