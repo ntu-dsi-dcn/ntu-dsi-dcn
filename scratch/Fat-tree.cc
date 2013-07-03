@@ -59,8 +59,8 @@
 	- On/Off Traffic of the simulation: addresses of client and server are randomly selected everytime
 	
 	- Simulation Settings:
-                - Number of pods (k): 4-72 (run the simulation with varying values of k)
-                - Number of nodes: 16-3400
+                - Number of pods (k): 4-24 (run the simulation with varying values of k)
+                - Number of nodes: 16-3456
 		- Simulation running time: 100 seconds
 		- Packet size: 1024 bytes
 		- Data rate for packet sending: 1 Mbps
