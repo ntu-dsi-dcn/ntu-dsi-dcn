@@ -55,8 +55,8 @@
 	- On/Off Traffic of the simulation: addresses of client and server are randomly selected everytime	
 
 	- Simulation Settings:
-                - Number of nodes: 4-3400 (run the simulation with different values of k and n)
-                - Number of BCube levels (k): 1-3
+                - Number of nodes: 64-3375 (run the simulation with different values of n)
+                - Number of BCube levels: 3 (ie k=2 is fixed)
                 - Number of nodes in BCube0 (n): 4-15
 		- Simulation running time: 100 seconds
 		- Packet size: 1024 bytes
@@ -120,7 +120,7 @@ int
 
 //=========== Define parameters based on value of k ===========//
 //
-	int k = 2;			// number of BCube level			
+	int k = 2;			// number of BCube level, For BCube with 3 levels, level0 to level2, k should be set as 2			
 	int n = 4;			// number of servers in one BCube;
 	int num_sw = pow (n,k);		// number of switch at each level (all levels have same number of switch) = n^k;
 	int num_host = num_sw*n;	// total number of host
@@ -157,7 +157,7 @@ int
 // Output some useful information
 //	
 	std::cout << "Number of BCube level =  "<< k+1<<"\n";
-	std::cout << "Number of switch in each BCube level "<< num_sw<<"\n";
+	std::cout << "Number of switch in each BCube level =  "<< num_sw<<"\n";
 	std::cout << "Number of host under each switch =  "<< n <<"\n";
 	std::cout << "Total number of host =  "<< num_host<<"\n";
 
