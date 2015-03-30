@@ -32,7 +32,7 @@ http://www.nsnam.org/wiki/index.php/Installation
 
 Running the simulations
 --------------------------------------
-The network topologies, configurations for the network devices and protocols, and the traffic flow generation have been implemented and documented. The source codes in the {{{/scratch}}} folder contains all the documentation for the implementation details of the architectures, as well as the simulation settings that are used. Users can customize the codes and/or edit the setting variables if necessary for their own needs.
+The network topologies, configurations for the network devices and protocols, and the traffic flow generation have been implemented and documented. The source codes in the "/scratch" folder contains all the documentation for the implementation details of the architectures, as well as the simulation settings that are used. Users can customize the codes and/or edit the setting variables if necessary for their own needs.
 
 - To simulate the Fat tree architecture,
 
