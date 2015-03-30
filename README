@@ -7,26 +7,26 @@ The NTU-DSI-DCN simulation framework is built on top of the core NS-3 simulator 
 
 Pre-requisities
 --------------------------------------
-*		A commodity PC with a Linux-based Operating System (eg. Ubuntu, Fedora, Red Hat etc)
-*		Mercurial source control tool (http://mercurial.selenic.com)
-*		Go through the NS-3 tutorial (http://www.nsnam.org/docs/release/3.13/tutorial/singlehtml/index.html) (Optional)
+- A commodity PC with a Linux-based Operating System (eg. Ubuntu, Fedora, Red Hat etc)
+- Mercurial source control tool (http://mercurial.selenic.com)
+- Go through the NS-3 tutorial (http://www.nsnam.org/docs/release/3.13/tutorial/singlehtml/index.html) (Optional)
 
 Installation Steps
 --------------------------------------
-*		Install a Linux Operating System and the Mercurial tool onto a physical computer
-*		Download the simulation framework by checking out the codes from the 'ntu-dsi-dcn' repository using Mercurial 
+- Install a Linux Operating System and the Mercurial tool onto a physical computer
+- Download the simulation framework by checking out the codes from the 'ntu-dsi-dcn' repository using Mercurial 
 
 hg clone https://ntu-dsi-dcn@code.google.com/p/ntu-dsi-dcn
 
-*		Setup and install the necessary packages needed by NS-3 in order to compile and run the simulation framework later
+- Setup and install the necessary packages needed by NS-3 in order to compile and run the simulation framework later
 
 http://www.nsnam.org/wiki/index.php/Installation
 
-*		Go into the project folder 'ntu-dsi-dcn' and run the command to configure the simulation framework first
+- Go into the project folder 'ntu-dsi-dcn' and run the command to configure the simulation framework first
 
 ./waf configure
 
-*		To compile the NTU-DSI-DCN simulation framework
+- To compile the NTU-DSI-DCN simulation framework
 
 ./waf
 
@@ -34,21 +34,21 @@ Running the simulations
 --------------------------------------
 The network topologies, configurations for the network devices and protocols, and the traffic flow generation have been implemented and documented. The source codes in the {{{/scratch}}} folder contains all the documentation for the implementation details of the architectures, as well as the simulation settings that are used. Users can customize the codes and/or edit the setting variables if necessary for their own needs.
 
-*		To simulate the Fat tree architecture,
+- To simulate the Fat tree architecture,
 
 ./waf --run scratch/Fat-tree
 
-*		To simulate the BCube architecture, 
+- To simulate the BCube architecture, 
 
 ./waf --run scratch/BCube
 
-*		To run the experiments stated in the paper's discussion on 'Section IV: Towards Reproducible Simulation Studies'
+- To run the experiments stated in the paper's discussion on 'Section IV: Towards Reproducible Simulation Studies'
 
 ./waf --run scratch/Fat-tree-Bilal
 
 ./waf --run scratch/Fat-tree-AlFares
 
-*		The performance statistics outputs are generated in the /statistics folder in XML format. Statistics output information such as the average throughput, number of packets transmitted and packet delay can be found by opening the XML file in a text editor
+- The performance statistics outputs are generated in the /statistics folder in XML format. Statistics output information such as the average throughput, number of packets transmitted and packet delay can be found by opening the XML file in a text editor
 
 ./waf --run scratch/Fat-tree will produce a /statistics/Fat-tree.xml output file with the statistics information
 
