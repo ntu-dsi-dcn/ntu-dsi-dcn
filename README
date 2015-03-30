@@ -48,9 +48,10 @@ The network topologies, configurations for the network devices and protocols, an
 
 ./waf --run scratch/Fat-tree-AlFares
 
-- The performance statistics outputs are generated in the /statistics folder in XML format. Statistics output information such as the average throughput, number of packets transmitted and packet delay can be found by opening the XML file in a text editor
+- The performance statistics outputs are generated in the "/statistics" folder in XML format. Statistics output information such as the average throughput, number of packets transmitted and packet delay can be found by opening the XML file in a text editor
 
-./waf --run scratch/Fat-tree will produce a /statistics/Fat-tree.xml output file with the statistics information
+./waf --run scratch/Fat-tree 
+(Command will produce a "/statistics/Fat-tree.xml" output file with the statistics information)
 
 
 Extending the simulation framework
