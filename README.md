@@ -101,7 +101,13 @@ For those who wish to use this framework to simulate the Fat-tree architecture o
 \[[Fat-tree by Al-Fares] (https://drive.google.com/file/d/0B_2UOgK6adKGQklfS1ZiaFRxejQ/view?usp=sharing)\]
 
 
-
+Researchers
+--------------------------------------
+* Daji Wong
+* Kiam Tian Seow
+* Chuan Heng Foh
+* Renuga Kanagavelu
+* Ngoc Linh Vu
 
 
 License
