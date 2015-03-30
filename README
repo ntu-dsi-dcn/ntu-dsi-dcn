@@ -3,13 +3,13 @@ Contains the information needed to use NTU-DSI-DCN simulation framework
 Introduction
 --------------------------------------
 
-The NTU-DSI-DCN simulation framework is built on top of the core NS-3 simulator (http://www.nsnam.org). The version used is ns-3.13 instead of the latest, for robustness and stability concerns. The fat tree and the BCube architectures have been implemented into the framework. Users can simply simulate the architectures and reproduce their performance models through a simple command line invocation.
+The NTU-DSI-DCN simulation framework is built on top of the core ns-3 simulator (http://www.nsnam.org). The version used is ns-3.13 instead of the latest, for robustness and stability concerns. The fat tree and the BCube architectures have been implemented into the framework. Users can simply simulate the architectures and reproduce their performance models through a simple command line invocation.
 
 Pre-requisities
 --------------------------------------
 - A commodity PC with a Linux-based Operating System (eg. Ubuntu, Fedora, Red Hat etc)
 - Mercurial source control tool (http://mercurial.selenic.com)
-- Go through the NS-3 tutorial (http://www.nsnam.org/docs/release/3.13/tutorial/singlehtml/index.html) (Optional)
+- Go through the ns-3 tutorial (http://www.nsnam.org/docs/release/3.13/tutorial/singlehtml/index.html) (Optional)
 
 Installation Steps
 --------------------------------------
@@ -18,7 +18,7 @@ Installation Steps
 
 hg clone https://ntu-dsi-dcn@code.google.com/p/ntu-dsi-dcn
 
-- Setup and install the necessary packages needed by NS-3 in order to compile and run the simulation framework later
+- Setup and install the necessary packages needed by ns-3 in order to compile and run the simulation framework later
 
 http://www.nsnam.org/wiki/index.php/Installation
 
