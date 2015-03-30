@@ -21,7 +21,7 @@ Installation Steps
 - Download the simulation framework by checking out the codes from the 'ntu-dsi-dcn' repository using Mercurial 
 
 ```
-hg clone https://ntu-dsi-dcn@code.google.com/p/ntu-dsi-dcn
+hg clone https://github.com/ntu-dsi-dcn/ntu-dsi-dcn.git
 ```
 
 - Setup and install the necessary packages needed by ns-3 in order to compile and run the simulation framework later
@@ -103,4 +103,4 @@ For those who wish to use this framework to simulate the Fat-tree architecture o
 
 License
 --------------------------------------
-Licensed under the [MIT license](https://github.com/imakewebthings/waypoints/blob/master/licenses.txt).
+Licensed under the [GNU General Public License](https://github.com/ntu-dsi-dcn/ntu-dsi-dcn/blob/master/LICENSE).
