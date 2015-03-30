@@ -1,5 +1,5 @@
 
-Introduction
+Getting started
 --------------------------------------
 The NTU-DSI-DCN simulation framework is built on top of the core ns-3 simulator (http://www.nsnam.org). The version used is ns-3.13 instead of the latest, for robustness and stability concerns. The fat tree and the BCube architectures have been implemented into the framework. Users can simply simulate the architectures and reproduce their performance models through a simple command line invocation.
 
