@@ -93,7 +93,7 @@ If you wish to contribute a DCN performance model that you have built into NTU-D
 
 Contributions from the community
 --------------------------------------
-16 Jan 2015: Arfath Ahamed's Fat-tree implementation with NetAnim on ns-3.21.
+16 Jan 2015 - Arfath Ahamed's Fat-tree implementation with NetAnim on ns-3.21.
 
 For those who wish to use this framework to simulate the Fat-tree architecture on ns-3.21 and above, you can use the following source codes contributed by Arfath Ahamed. He can be contacted at <arfathsm@gmail.com>. Download these source codes into the "/scratch" folder of ns-3 to run it. 
 \[[Fat-tree] (https://drive.google.com/file/d/0B_2UOgK6adKGajM5ODhuV01yN0U/view?usp=sharing)\]
