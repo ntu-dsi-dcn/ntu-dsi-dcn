@@ -97,9 +97,9 @@ Contributions from the community
 
 For those who wish to use this framework to simulate the Fat-tree architecture on ns-3.21 and above, you can use the following source codes contributed by Arfath Ahamed. He can be contacted at <arfathsm@gmail.com>. Download these source codes into the "/scratch" folder of ns-3 to run it. 
 
-[Fat-tree] (https://drive.google.com/file/d/0B_2UOgK6adKGajM5ODhuV01yN0U/view?usp=sharing) 
-[Fat-tree by Bilal et al] (https://drive.google.com/file/d/0B_2UOgK6adKGSWlnOTM5a0k3YjQ/view?usp=sharing) 
-[Fat-tree by Al-Fares] (https://drive.google.com/file/d/0B_2UOgK6adKGQklfS1ZiaFRxejQ/view?usp=sharing) 
+- [Fat-tree] (https://drive.google.com/file/d/0B_2UOgK6adKGajM5ODhuV01yN0U/view?usp=sharing)
+- [Fat-tree by Bilal et al] (https://drive.google.com/file/d/0B_2UOgK6adKGSWlnOTM5a0k3YjQ/view?usp=sharing)
+- [Fat-tree by Al-Fares] (https://drive.google.com/file/d/0B_2UOgK6adKGQklfS1ZiaFRxejQ/view?usp=sharing) 
 
 
 Researchers
