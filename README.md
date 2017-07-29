@@ -49,19 +49,19 @@ Running the simulations
 --------------------------------------
 The network topologies, configurations for the network devices and protocols, and the traffic flow generation have been implemented and documented. The source codes in the "/scratch" folder contains all the documentation for the implementation details of the architectures, as well as the simulation settings that are used. Users can customize the codes and/or edit the setting variables if necessary for their own needs.
 
-- To simulate the Fat tree architecture,
+- To simulate the Fat tree architecture, use this command:
 
 ```
 ./waf --run scratch/Fat-tree
 ```
 
-- To simulate the BCube architecture, 
+- To simulate the BCube architecture, use this command:
 
 ```
 ./waf --run scratch/BCube
 ```
 
-- To run the experiments stated in the paper's discussion on 'Section IV: Towards Reproducible Simulation Studies'
+- To run the experiments stated in the paper's discussion on 'Section IV: Towards Reproducible Simulation Studies', use these commands:
 
 ```
 ./waf --run scratch/Fat-tree-Bilal
@@ -69,13 +69,13 @@ The network topologies, configurations for the network devices and protocols, an
 ./waf --run scratch/Fat-tree-AlFares
 ```
 
-- The performance statistics outputs are generated in the "/statistics" folder in XML format. Statistics output information such as the average throughput, number of packets transmitted and packet delay can be found by opening the XML file in a text editor
+- The performance statistics outputs are generated in the "/statistics" folder in XML format. Statistics output information such as the average throughput, number of packets transmitted and packet delay can be found by opening the XML file in a text editor. For example, consider this command:
 
 ```
 ./waf --run scratch/Fat-tree 
 ```
 
-(Command will produce a "/statistics/Fat-tree.xml" output file with the statistics information)
+The above command will produce a "/statistics/Fat-tree.xml" output file with the statistics information when the simulation is completed.
 
 
 
