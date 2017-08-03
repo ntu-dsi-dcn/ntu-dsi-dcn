@@ -110,7 +110,7 @@ Researchers
 * Renuga Kanagavelu
 * Ngoc Linh Vu
 
-This research initiative is a collaborative effort between Nanyang Technological University, Singapore and A*STAR Data Storage Institute, Singapore.
+This research initiative is a collaborative effort between Nanyang Technological University (Singapore) and A*STAR Data Storage Institute (Singapore).
 
 License
 --------------------------------------
