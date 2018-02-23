@@ -126,6 +126,8 @@ Researchers
 
 This research initiative is a collaborative effort between Nanyang Technological University (Singapore) and A*STAR Data Storage Institute (Singapore).
 
+We can be contacted at ntu.dsi.dcn@gmail.com
+
 License
 --------------------------------------
 Licensed under the [GNU General Public License](https://github.com/ntu-dsi-dcn/ntu-dsi-dcn/blob/master/LICENSE).
