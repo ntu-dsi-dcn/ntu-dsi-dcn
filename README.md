@@ -46,6 +46,8 @@ hg clone https://github.com/ntu-dsi-dcn/ntu-dsi-dcn.git
 
 Migrating to the latest ns-3 and Ubuntu LTS versions
 ----------------------------------------------------------------
+We suggest that you start by getting NTU-DSI-DCN to run successfully on the old ns-3.13 and Ubuntu 12.04 LTS first before doing the migration. This allows you to get a good feel and basic understanding of ns-3. Once you are more confident about handling the technicalites of ns-3, proceed on with the migration if needed.
+
 Should you wish to run NTU-DSI-DCN on the latest ns-3 and Ubuntu LTS versions, you need to do the following:
 
 - First, install a fresh copy of the latest official ns-3 simulator (eg. ns-3.27) on a clean Ubuntu LTS (eg. Ubuntu 16.04 LTS) system.
@@ -54,7 +56,8 @@ Should you wish to run NTU-DSI-DCN on the latest ns-3 and Ubuntu LTS versions, y
 - Copy all the NTU-DSI-DCN simulation codes found in this "/scratch" folder over to the latest ns-3 simulator's "/scratch" folder you have just installed.
 - Refactor the NTU-DSI-DCN simulation codes to make it compatible with the latest ns-3 simulator APIs.
 - Follow the "Running the simulations" steps written below to reproduce the experiments stated in our paper.
-- We suggest that you start by getting NTU-DSI-DCN to run successfully on the old ns-3.13 and Ubuntu 12.04 LTS first before doing the migration. This allows you to get a good feel and basic understanding of ns-3. Once you are more confident about handling the technicalites of ns-3, proceed on with the migration if needed.
+
+
 
 Running the simulations
 --------------------------------------
