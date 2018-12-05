@@ -18,7 +18,7 @@ Pre-requisities
 
 
 
-Installation Steps
+Installation steps
 --------------------------------------
 - Install a Linux Operating System and the Mercurial tool onto a physical computer. 
 - Download the simulation framework by checking out the codes from the 'ntu-dsi-dcn' repository using Mercurial 
