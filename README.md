@@ -28,7 +28,7 @@ hg clone https://github.com/ntu-dsi-dcn/ntu-dsi-dcn.git
 ```
 
 - Setup and install the necessary packages needed by ns-3 in order to compile and run the simulation framework later
-(http://www.nsnam.org/wiki/index.php/Installation)
+(https://www.nsnam.org/wiki/Installation)
 
 
 - Go into the project folder 'ntu-dsi-dcn' and run the command to configure the simulation framework first
