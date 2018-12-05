@@ -13,7 +13,8 @@ Pre-requisities
 --------------------------------------
 - A commodity PC with a Linux-based Operating System (eg. Ubuntu, Fedora, Red Hat etc)
 - Mercurial source control tool (http://mercurial.selenic.com)
-- Go through the ns-3 tutorial (http://www.nsnam.org/docs/release/3.13/tutorial/singlehtml/index.html) (Highly recommended to do so)
+- Go through the ns-3 tutorial (http://www.nsnam.org/docs/release/3.13/tutorial/singlehtml/index.html) 
+(Highly recommended to do so)
 - NTU-DSI-DCN requires ns-3.13 and Ubuntu 12.04 LTS.
 
 
