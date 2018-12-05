@@ -51,7 +51,7 @@ We suggest that you start by getting NTU-DSI-DCN to run successfully on the old 
 Should you wish to run NTU-DSI-DCN on the latest ns-3 and Ubuntu LTS versions, you need to do the following:
 
 - First, install a fresh copy of the latest official ns-3 simulator (eg. ns-3.27) on a clean Ubuntu LTS (eg. Ubuntu 16.04 LTS) system.
-- Manually fix the compilation errors using the official ns-3 wiki guide as reference (https://www.nsnam.org/wiki/index.php/Installation).
+- Manually fix the compilation errors using the official ns-3 wiki guide as reference (https://www.nsnam.org/wiki/Installation).
 - Go to the "/scratch" folder in NTU-DSI-DCN.
 - Copy all the NTU-DSI-DCN simulation codes found in this "/scratch" folder over to the latest ns-3 simulator's "/scratch" folder you have just installed.
 - Refactor the NTU-DSI-DCN simulation codes to make it compatible with the latest ns-3 simulator APIs.
