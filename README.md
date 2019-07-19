@@ -37,7 +37,7 @@ hg clone https://github.com/ntu-dsi-dcn/ntu-dsi-dcn.git
 ./waf configure
 ```
 
-- To compile the NTU-DSI-DCN simulation framework
+- To compile the NTU-DSI-DCN simulation framework, run the following command
 
 ```
 ./waf
